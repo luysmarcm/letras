@@ -57,12 +57,12 @@ const Formulario = ({setBuscarArtista}) => {
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="form-group">
-                                    <label className="text-dark">artist</label>
+                                    <label className="text-dark">Artista</label>
                                     <input
                                         type="text"
                                         className="form-control"
                                         name="artist"
-                                        placeholder="Nombre artist"
+                                        placeholder="Nombre Artista"
                                         onChange={actualizarState}
                                         value={artist}
                                         

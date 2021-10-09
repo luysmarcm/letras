@@ -2,8 +2,11 @@ import React from "react";
 
 const Artista = ({informacion}) => {
   const { strArtistThumb, strGenre, strBiographyES } = informacion;
+   if (informacion.length === 0) return null;
 
   return (
+
+    
     <div className="card border-light">
       <div className="card-header bg-primary text-light font-weight-bold">
         Información Artista
